@@ -67,7 +67,7 @@
 
 function generateTableRow() {
 	var emptyColumn = document.createElement('tr');
-	emptyColumn.innerHTML = '<td><a class="cut">-</a><span contenteditable>1</span></td>'
+	emptyColumn.innerHTML = '<td><a class="cut">-</a><span contenteditable>1</span></td>'+
 				'<td><span contenteditable>Experience Review</span></td>'+
 				'<td><span contenteditable>4</span></td>'+
 				'<td><span contenteditable>4</span></td>'+
